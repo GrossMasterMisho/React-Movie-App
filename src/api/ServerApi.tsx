@@ -8,6 +8,6 @@ export const fetchMovies = async () => {
   } = await axios.get(
     `${BaseUrl}/?s=sos&apikey=${process.env.REACT_APP_OBMD_API_KEY}`
   );
-  console.log(Search);
+
   return Search;
 };

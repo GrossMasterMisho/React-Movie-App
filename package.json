@@ -6,7 +6,11 @@
   "proxy": "http://www.omdbapi.com/",
   "homepage": "http://localhost:3000",
   "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
     "@material-ui/core": "^4.12.3",
+    "@mui/icons-material": "^5.0.0",
+    "@mui/material": "^5.0.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -52,7 +56,7 @@
   },
   "devDependencies": {
     "concurrently": "^6.2.1",
-    "electron": "^1.4.14",
+    "electron": "^15.0.0",
     "wait-on": "^6.0.0"
   }
 }

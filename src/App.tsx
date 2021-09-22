@@ -1,16 +1,7 @@
-import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import MainPage from "./page/MainPage";
+import RootRouter from "./router/RootRouter";
 
 const App = () => {
-  console.log("App.js");
-  return (
-    <Router>
-      <Switch>
-        <Route exact component={MainPage} path="/" />
-      </Switch>
-    </Router>
-  );
+  return <RootRouter />;
 };
 
 export default App;
